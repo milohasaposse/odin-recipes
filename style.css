@@ -1,0 +1,47 @@
+.landing {
+    background-color: mistyrose;
+
+}
+.landing > h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orchid;
+    font-size: 40vh;
+    font-variant: small-caps;
+    margin-top: 0;
+    margin-bottom: -0.6em;
+    text-shadow: 30px 30px 8px palegreen;
+    z-index: -3;
+
+    
+    
+}
+
+.landing > ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vh;
+    text-align: right;
+    font-weight: bolder;
+    list-style-type: square;
+    text-decoration: overline wavy aliceblue;
+    color: darksalmon;
+
+    
+    
+}
+
+.landing a {
+    color:cornflowerblue;
+}
+
+.landing a:hover {
+    color: hotpink;
+    text-transform: uppercase;
+}
+
+.landing a:visited {
+    color: seagreen;
+}
+
+.landing a:active {
+    color:orangered;
+}
