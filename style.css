@@ -9,11 +9,7 @@
     font-variant: small-caps;
     margin-top: 0;
     margin-bottom: -0.6em;
-    text-shadow: 30px 30px 8px palegreen;
-    z-index: -3;
-
-    
-    
+    text-shadow: 30px 30px 8px palegreen;    
 }
 
 .landing > ul {
@@ -23,10 +19,7 @@
     font-weight: bolder;
     list-style-type: square;
     text-decoration: overline wavy aliceblue;
-    color: darksalmon;
-
-    
-    
+    color: darksalmon;    
 }
 
 .landing a {
@@ -45,3 +38,35 @@
 .landing a:active {
     color:orangered;
 }
+
+.beantoast {
+    background-image: url("/images/beansontoast.jpg");
+    height: 100vh;
+    background-color: navy;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.beantoast li,
+.beantoast p {
+    border: 2px solid white;
+    width: 25vw;
+    padding: 4px;
+    
+}
+
+.beantoast h3,
+.beantoast ol,
+.beantoast ul {
+    margin-left: 66vw;
+    margin-bottom: none;
+    text-align: right;
+}
+
+.beantoast ol {
+    list-style: lower-roman;
+}
+
